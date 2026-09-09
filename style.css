@@ -5,10 +5,15 @@
 }
 
 body{
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     background-color: #fafaf9;
 }
 
-header{
+header,
+footer{
     display: flex;
     justify-content: space-between;
 
@@ -88,4 +93,66 @@ header{
 
 .conteudo__filter label{
     padding: 8px;
+}
+
+.form__input{
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #e5e5e3;
+    border-radius: 8px;
+}
+
+.depoimentos{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e3;
+    border-radius: 8px;
+}
+
+.card__avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.card__avatar--grey{
+    background-color: #dddddd;
+    color: #333333;
+}
+
+.card__text{
+    flex-grow: 1;
+    padding: 0 16px;
+}
+
+.card__badge{
+    padding: 4px 8px;
+    background-color: #dddddd;
+    border-radius: 4px;
+    color: #666666;
+}
+
+.card__title{
+    padding:4px 0 16px 0;
+}
+
+.card__actions{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
