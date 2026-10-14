@@ -1,0 +1,24 @@
+{
+  "name": "vagas-q",
+  "version": "1.0.0",
+  "description": "Aula de quarta-feira de Frontend da UniSATC",
+  "homepage": "https://github.com/lucasbeskow/vagas-q#readme",
+  "bugs": {
+    "url": "https://github.com/lucasbeskow/vagas-q/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasbeskow/vagas-q.git"
+  },
+  "license": "MIT",
+  "author": "Arthur Hosang",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "start": "npx http-server -p8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
